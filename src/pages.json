@@ -1,0 +1,76 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "流行"
+			}
+		},
+		{
+			"path": "pages/like/like",
+			"style": {
+				"navigationBarTitleText": "喜欢"
+			}
+		},
+		{
+			"path": "pages/book/book",
+			"style": {
+				"navigationBarTitleText": "书籍"
+			}
+		}
+	    ,{
+            "path" : "compents/search/search",
+            "style" : {
+							"navigationBarTitleText": "搜索"
+						}
+        }
+        ,{
+            "path" : "pages/bookDetails/bookDetails",
+            "style" : {
+							"navigationBarTitleText": "详情"
+						}
+        }
+        ,{
+            "path" : "compents/details/msg/msg",
+            "style" : {}
+        }
+        ,{
+            "path" : "compents/details/comment/comment",
+            "style" : {}
+        }
+        ,{
+            "path" : "compents/toast/toast",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#fff",
+		"backgroundColor": "#fff"
+	},
+	"tabBar": {
+		"color": "#fff",
+		"selectedColor": "red",
+		"backgroundColor": "red",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tabBar/home.png",
+				"selectedIconPath": "static/tabBar/selectHome.png",
+				"text": "流行"
+			},
+			{
+				"pagePath": "pages/book/book",
+				"iconPath": "static/tabBar/style.png",
+				"selectedIconPath": "static/tabBar/selectStyle.png",
+				"text": "书籍"
+			},
+			{
+				"pagePath": "pages/like/like",
+				"iconPath": "static/tabBar/set.png",
+				"selectedIconPath": "static/tabBar/selectSet.png",
+				"text": "喜欢"
+			}
+		]
+	}
+}
